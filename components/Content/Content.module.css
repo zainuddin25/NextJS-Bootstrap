@@ -1,0 +1,181 @@
+.container {
+    width: 100%;
+    height: 100vh;
+}
+.title {
+    background-image: url("../../asset/img/Hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title-wrapper {
+    font-size: 42px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.wrapper {
+    width: 50%;
+    text-align: center;
+}
+.title-about {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #4286F5;
+    font-size: 14px;
+}
+.about-section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+    background-color: white;
+}
+.title-brand {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.title-brand span{
+    color: #4286F5;
+}
+.card {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.user-card {
+    width: 200px;
+    height: 240px;
+    border-radius: 8px;
+    background-color: #F9FAFC;
+    text-align: center;
+    margin-right: 20px;
+}
+.contes-card {
+    width: 200px;
+    height: 240px;
+    border-radius: 8px;
+    background-color: #F9FAFC;
+    text-align: center;
+}
+.portfolio-card {
+    width: 200px;
+    height: 240px;
+    border-radius: 8px;
+    background-color: #F9FAFC;
+    text-align: center;
+    margin-left: 20px;
+}
+.card i {
+    font-size: 50px;
+    margin-top: 10px;
+    padding-top: 23px;
+    border: 0px solid #000;
+    color: #F9FAFC;
+    background-color: #4286F5;
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+}
+.user-card:hover{
+    background-color: #4286F5;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    color: white;
+}
+.contes-card:hover{
+    background-color: #4286F5;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    color: white;
+}
+.portfolio-card:hover{
+    background-color: #4286F5;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    color: white;
+}
+.card h3{
+    padding-top: 15px;
+    font-size: 20px;
+}
+.card p {
+    font-size: 10px;
+    width: 75%;
+    margin: auto;
+}
+.tutorial-section {
+    width: 50%;
+    margin: auto;
+    padding-top: 80px;
+    flex-direction: column;
+}
+
+@media (max-width: 600px) {
+    .title-wrapper {
+        font-size: 24px;
+    }
+    .wrapper {
+        font-size: 12px;
+        width: 75%;
+    }
+    .title-about {
+        font-size: 10px;
+    }
+    .title-brand {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+    .card {
+        display: block;
+    }
+    .about-section {
+        height: auto;
+        padding-bottom: 100px;
+    }
+    .user-card {
+        margin-right: 0;
+        margin-bottom: 20px;
+        height: 170px;
+    }
+    .contes-card {
+        height: 170px;
+    }
+    .portfolio-card {
+        margin-left: 0;
+        margin-top: 20px;
+        height: 170px;
+    }
+    .card i {
+        font-size: 25px;
+        width: 50px;
+        height: 50px;
+        padding-top: 13px;
+    }
+    .card h3 {
+        font-size: 14px;
+    }
+    .about-section {
+        padding-bottom: 30px;
+    }
+    .container-about {
+        height: auto;
+    }
+    .container-tutorial {
+        height: auto;
+        padding-bottom: 40px;
+    }
+    .tutorial-section {
+        width: 80%;
+    }
+}
